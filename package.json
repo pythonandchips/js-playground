@@ -18,6 +18,8 @@
     "grunt-contrib-connect": "~0.3.0",
     "coffeeify": "~0.5.1",
     "handlebars-runtime": "~1.0.12",
-    "hbsfy": "~0.1.5"
+    "hbsfy": "~0.1.5",
+    "grunt-contrib-jasmine": "~0.5.1",
+    "grunt-karma": "git+https://github.com/karma-runner/grunt-karma.git#master"
   }
 }

@@ -22,6 +22,9 @@ class CustomerView
     )
 
 
+  returnFalse: ->
+    false
+
   publish: ->
     console.log(@.story())
     #eventBus.publish('space_1:edit', @story )
