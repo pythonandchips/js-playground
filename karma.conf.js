@@ -8,6 +8,29 @@ module.exports = function(config) {
     basePath: '',
 
 
+    sauceLabs: {
+      username: 'username',
+      accessKey: 'access key',
+      startConnect: true,
+      testName: 'whooo app'
+    },
+
+    // define SL browsers
+    customLaunchers: {
+      sl_chrome_linux: {
+        base: 'SauceLabs',
+        browserName: 'chrome',
+        platform: 'linux'
+      },
+      sl_ie: {
+        base: 'SauceLabs',
+        browserName: 'internet explorer',
+        platform: 'Windows 7',
+        version: '9'
+      }
+    },
+
+
     // frameworks to use
     frameworks: ['jasmine'],
 
@@ -58,7 +81,7 @@ module.exports = function(config) {
     // - Safari (only Mac)
     // - PhantomJS
     // - IE (only Windows)
-    browsers: ['Chrome'],
+    browsers: ['PhantomJS'],
 
 
     // If browser does not capture in given timeout [ms], kill it

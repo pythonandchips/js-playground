@@ -7,7 +7,7 @@ describe("A suite", function() {
   return it("contains spec with an expectation", function() {
     var customer_view;
     customer_view = new CustomerView();
-    return expect(customer_view.returnFalse()).toBe(true);
+    return expect(customer_view.returnFalse()).toBe(false);
   });
 });
 

@@ -3,6 +3,6 @@ describe("A suite", ->
 
   it("contains spec with an expectation", ->
     customer_view = new CustomerView()
-    expect(customer_view.returnFalse()).toBe(true)
+    expect(customer_view.returnFalse()).toBe(false)
   )
 )
